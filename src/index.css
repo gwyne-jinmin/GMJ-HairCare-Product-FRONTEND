@@ -1,0 +1,167 @@
+/* src/index.css */
+:root {
+  font-family: sans-serif;
+  color-scheme: light dark;
+  color: #4B0082; /* Dark purple text */
+  background-color: #F3E5F5; /* Light purple background */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.product-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #6A1B9A; /* Vibrant purple */
+  margin-bottom: 30px;
+}
+
+/* Forms */
+.form-section {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(106, 27, 154, 0.2);
+  margin-bottom: 30px;
+}
+
+.product-form h3 {
+  border-bottom: 2px solid #B39DDB;
+  padding-bottom: 10px;
+  margin-top: 0;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #4B0082;
+}
+
+.product-form input[type="text"],
+.product-form input[type="number"],
+.product-form textarea {
+  width: calc(100% - 20px);
+  padding: 10px;
+  border: 1px solid #B39DDB;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #F3E5F5;
+  color: #4B0082;
+}
+
+/* Buttons */
+button {
+  cursor: pointer;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: background-color 0.2s;
+}
+
+.btn-create {
+  background-color: #9C27B0; /* Purple */
+  color: white;
+}
+
+.btn-create:hover {
+  background-color: #7B1FA2;
+}
+
+.btn-update {
+  background-color: #BA68C8;
+  color: white;
+}
+
+.btn-update:hover {
+  background-color: #AB47BC;
+}
+
+.btn-delete {
+  background-color: #8E24AA;
+  color: white;
+  margin-left: 10px;
+}
+
+.btn-delete:hover {
+  background-color: #6A1B9A;
+}
+
+.btn-edit {
+  background-color: #7B1FA2;
+  color: white;
+  margin-right: 10px;
+}
+
+.btn-edit:hover {
+  background-color: #4A148C;
+}
+
+.btn-cancel {
+  background-color: #9575CD;
+  color: white;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.btn-cancel:hover {
+  background-color: #7E57C2;
+}
+
+/* Product List */
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.product-card {
+  background-color: #F3E5F5;
+  border: 1px solid #D1C4E9;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(106, 27, 154, 0.1);
+}
+
+.product-card h4 {
+  margin-top: 0;
+  color: #4B0082;
+}
+
+.product-card .price {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #9C27B0;
+  margin: 5px 0;
+}
+
+.product-card .description {
+  color: #6A1B9A;
+  margin-bottom: 15px;
+}
+
+/* Utility */
+.loading,
+.error-message {
+  text-align: center;
+  padding: 20px;
+  font-size: 1.2em;
+}
+
+.error-message {
+  color: #D500F9;
+  border: 1px solid #D500F9;
+  background-color: #F3E5F5;
+  border-radius: 4px;
+}
