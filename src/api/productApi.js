@@ -2,7 +2,7 @@
 
 // Use Render backend URL
 const BACKEND_URL = "https://gmj-haircare-products-backend-1.onrender.com";
-const API_BASE_URL = `${BACKEND_URL}/api/products`;
+const API_BASE_URL = `${BACKEND_URL}/api/productsApi`;
 
 // -----------------------------
 // GET All Products (Read)
