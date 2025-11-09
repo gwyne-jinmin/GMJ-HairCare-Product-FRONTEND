@@ -1,7 +1,8 @@
 // src/api/productApi.js
 
-// Use Vite proxy: '/api' will be forwarded to backend (port 3000)
-const API_BASE_URL = "/api/products";
+// Use Render backend URL
+const BACKEND_URL = "https://gmj-haircare-products-backend.onrender.com";
+const API_BASE_URL = `${BACKEND_URL}/api/products`;
 
 // -----------------------------
 // GET All Products (Read)
